@@ -1,0 +1,79 @@
+Tue Feb  4 23:19:49 IST 2025
+
+Logging enabled at /Users/shivanksharma/Desktop/AI/Autogen0.4/ragtest/logs/indexing-engine.log
+Running standard indexing.
+🚀 create_base_text_units
+                                                   id  ... n_tokens
+0   3d4f1fc9941aae841936b4c0d8c91778a9c0b0cf5cf5a1...  ...        7
+1   7e4f94ec3f9a2703399be1d334786cc76e52e92f5d2a72...  ...        7
+2   bdbab4deb529711a17971df17a494bb99c5e37f5337ed4...  ...        7
+3   51c63e18521763a286bba5a6e64d2cc0fec15b4aa8acb1...  ...        7
+4   8b00db6c5d618dfc3e0bc7ce81320077dd39a448524a73...  ...        7
+..                                                ...  ...      ...
+95  90861ed60c8e9561e25c795c8e6da98897176192222f82...  ...        7
+96  2bb0178f8b94b144e218829e6619e18ef4ea0fe255d685...  ...        7
+97  c69d9f956890d8bed07cd4cf8880ec91c1510f2c527796...  ...        7
+98  31145c94510c820435d6aba7aaa62cfe734ca538e55749...  ...        7
+99  fbced424ac8a084835636f3fb95de6bfef66e54492d2b2...  ...        7
+
+[100 rows x 4 columns]
+🚀 create_final_documents
+                                                   id  ...                                      text_unit_ids
+0   9d21e239d4f824c32e2c5cf51d63e9372add68eba48a1b...  ...  [17c8a5d83bd0e4cf21ff496a2def12b7d019de5311cf6...
+1   bb6bf7fe0e1f3548e35efe83b10f507665401502d3d1c3...  ...  [0313187e548f4ee69dce4fef1e5b0a0b494c71c15550c...
+2   abbfba240583510dfa5eabe50136f1584b4273e0275d92...  ...  [764124110c0a175acf0b452c4ca834ef387f5288faf26...
+3   206c535fa0cace2a7a9d3e76070953eae63d7227543ffe...  ...  [724e86fb10231e47fb152d0fc224c7ca673f4612e225a...
+4   f8fd4fad625e22317e17e51cf786e8449030404994a4fd...  ...  [90861ed60c8e9561e25c795c8e6da98897176192222f8...
+..                                                ...  ...                                                ...
+95  962f4797bb450caa4ac929108746ad92a1bec6427df85d...  ...  [c4949f900fa40d3225de9b052c2544844ad4e255f8c3e...
+96  cfc932e4d44935ddc916dc03857c7d41e7e7e8b0a7d2bd...  ...  [52ad5372151710c4e0ead7e5f8d3de8e2c11e14679be9...
+97  c406c72ef6eef461479fa85377fb62709a5bd621ef601a...  ...  [06be9bec1e23b28f51b18c352b8ad2bf69e44baa60eea...
+98  6f70e2397fa4f76fc2e59633218b3fdf51cecf0dd05a75...  ...  [89904af5ef550b4f308f4a83231abbd73f6d151269291...
+99  5fb95354bb8eb2d74342a9f3abe491aaf8abc44a62794f...  ...  [6bc4ce117350ecbdad56cdc6eaa5a71bf38722e913d3a...
+
+[100 rows x 4 columns]
+❌ extract_graph
+None
+⠋ GraphRAG Indexer 
+├── Loading Input (InputFileType.csv) - 1 files loaded (0 filtered) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00 0:00:00
+├── create_base_text_units ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00 0:00:00
+├── create_final_documents ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00 0:00:00❌ Errors occurred during the pipeline run, see logs for more details.
+
+Logging enabled at /Users/shivanksharma/Desktop/AI/Autogen0.4/ragtest/logs/indexing-engine.log
+Running standard indexing.
+🚀 create_base_text_units
+                                                   id  ... n_tokens
+0   3d4f1fc9941aae841936b4c0d8c91778a9c0b0cf5cf5a1...  ...        7
+1   7e4f94ec3f9a2703399be1d334786cc76e52e92f5d2a72...  ...        7
+2   bdbab4deb529711a17971df17a494bb99c5e37f5337ed4...  ...        7
+3   51c63e18521763a286bba5a6e64d2cc0fec15b4aa8acb1...  ...        7
+4   8b00db6c5d618dfc3e0bc7ce81320077dd39a448524a73...  ...        7
+..                                                ...  ...      ...
+95  90861ed60c8e9561e25c795c8e6da98897176192222f82...  ...        7
+96  2bb0178f8b94b144e218829e6619e18ef4ea0fe255d685...  ...        7
+97  c69d9f956890d8bed07cd4cf8880ec91c1510f2c527796...  ...        7
+98  31145c94510c820435d6aba7aaa62cfe734ca538e55749...  ...        7
+99  fbced424ac8a084835636f3fb95de6bfef66e54492d2b2...  ...        7
+
+[100 rows x 4 columns]
+🚀 create_final_documents
+                                                   id  ...                                      text_unit_ids
+0   9d21e239d4f824c32e2c5cf51d63e9372add68eba48a1b...  ...  [17c8a5d83bd0e4cf21ff496a2def12b7d019de5311cf6...
+1   bb6bf7fe0e1f3548e35efe83b10f507665401502d3d1c3...  ...  [0313187e548f4ee69dce4fef1e5b0a0b494c71c15550c...
+2   abbfba240583510dfa5eabe50136f1584b4273e0275d92...  ...  [764124110c0a175acf0b452c4ca834ef387f5288faf26...
+3   206c535fa0cace2a7a9d3e76070953eae63d7227543ffe...  ...  [724e86fb10231e47fb152d0fc224c7ca673f4612e225a...
+4   f8fd4fad625e22317e17e51cf786e8449030404994a4fd...  ...  [90861ed60c8e9561e25c795c8e6da98897176192222f8...
+..                                                ...  ...                                                ...
+95  962f4797bb450caa4ac929108746ad92a1bec6427df85d...  ...  [c4949f900fa40d3225de9b052c2544844ad4e255f8c3e...
+96  cfc932e4d44935ddc916dc03857c7d41e7e7e8b0a7d2bd...  ...  [52ad5372151710c4e0ead7e5f8d3de8e2c11e14679be9...
+97  c406c72ef6eef461479fa85377fb62709a5bd621ef601a...  ...  [06be9bec1e23b28f51b18c352b8ad2bf69e44baa60eea...
+98  6f70e2397fa4f76fc2e59633218b3fdf51cecf0dd05a75...  ...  [89904af5ef550b4f308f4a83231abbd73f6d151269291...
+99  5fb95354bb8eb2d74342a9f3abe491aaf8abc44a62794f...  ...  [6bc4ce117350ecbdad56cdc6eaa5a71bf38722e913d3a...
+
+[100 rows x 4 columns]
+❌ extract_graph
+None
+⠋ GraphRAG Indexer 
+├── Loading Input (InputFileType.csv) - 1 files loaded (0 filtered) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00 0:00:00
+├── create_base_text_units ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00 0:00:00
+├── create_final_documents ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00 0:00:00❌ Errors occurred during the pipeline run, see logs for more details.

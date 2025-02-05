@@ -1,0 +1,23 @@
+Below are the summary for AppBrewery Virtual Machine's (VM) data
+    
+    Table_name -> AppBrewery
+
+    Attribute_list -> 
+        1. VMNAME : Name of the virtual machine.
+        2. State : Indicates whether the VM is ON or OFF.
+        3. Status : Describes the VM's condition (Normal or Special).
+        4. Host : The physical server hosting the VM.
+        5. Cluster : The group of hosts managing the VM.
+        6. Provisioned_Space : Total storage allocated to the VM.
+        7. Used_Space : Storage currently used by the VM.
+        8. HostCPU : CPU allocation on the host machine.
+        9. HostMem : Memory allocated to the VM.
+        10. KN_SNC_DT : Known since date of the VM record.
+        11. Decom_date : Planned decommissioning date of the VM.
+
+    Self table RelationShips : 
+        Host Can have multiple VMNAME (VM)
+        Cluster can have multiple Host
+    
+    Foreign Table relationShips :
+         None
